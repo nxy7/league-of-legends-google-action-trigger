@@ -1,0 +1,1 @@
+Small project that allows controlling home automation and uses League of Legends events as triggers.
