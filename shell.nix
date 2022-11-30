@@ -3,8 +3,9 @@
 
 pkgs.mkShell {
   buildInputs = with pkgs; [
-    go
+    go_1_19
   ];
+  
 
   shellHook = ''
     echo 'Shell started...'
