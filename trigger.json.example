@@ -1,0 +1,28 @@
+[
+    {
+        "trigger": "death",
+        "action": [
+            {
+                "type": "post",
+                "target": "192.168.0.1"
+            },
+            {
+                "type": "post",
+                "target": "test.com"
+            }
+        ]
+    },
+    {
+        "trigger": "kill",
+        "action": [
+            {
+                "type": "post",
+                "target": "192.168.0.1"
+            },
+            {
+                "type": "post",
+                "target": "test.com"
+            }
+        ]
+    }
+]
