@@ -4,6 +4,7 @@
 pkgs.mkShell {
   buildInputs = with pkgs; [
     go_1_19
+    rustup
   ];
   
 
